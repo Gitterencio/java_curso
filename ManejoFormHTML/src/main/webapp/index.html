@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EjercicioForn</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="recursos/styls.css">
+        <script type="text/javascript" src="recursos/funciones.js" />
+    </head>
+    <body>
+        <form name="form1" action="/ManejoFormHTML/Servlet" method="POST" 
+              onsubmit="return validarForm(this)">
+            <input type="hidden" name="oculto" value="Valoroculto"></input>
+
+            <table width="200" id="enfasis-columna">
+                <caption>
+                    Formulario Registro De Datos
+                </caption>
+                <tr>
+                    <td class="columna">
+                        Usuario: (*)
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
