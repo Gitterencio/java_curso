@@ -8,8 +8,8 @@
     </head>
     <body>
         <form name="form1" action="/ManejoFormHTML/Servlet" method="POST" 
-              onsubmit="return validarForm(this)">
-            <input type="hidden" name="oculto" value="Valoroculto"/>
+              onsubmit="return validarForma(this)">
+            <input type="hidden" name="oculto" value="valoroculto"/>
 
             <table width="200" id="enfasis-columna">
                 <caption>
@@ -63,7 +63,7 @@
                     </td>
                     <td >
                         <select name="ocupacion" class="default">
-                            <option values="">Seleccionar</option>
+                            <option value="">Seleccionar</option>
                             <option value="1">Profesor</option>
                             <option value="2">Ingeniero</option>
                             <option value="3">Jubilado</option>
@@ -110,5 +110,8 @@
                 </tr>
             </table>
         </form>
+        
+        <br/>
+        <a href="/ManejoFormHTML/cabeceros" >Enviar</a>
     </body>
 </html>
